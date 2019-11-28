@@ -1,5 +1,5 @@
 const { connect, Schema, model } = require('mongoose');
-let url = 'mongodb+srv://millieAdmin:Tornado135@milliebot-v0jnh.gcp.mongodb.net/test?retryWrites=true&w=majority'
+let url = 'mongodb+srv://NUMPODI:NUMPODI@NUMPODI-v0jnh.gcp.mongodb.net/test?retryWrites=true&w=majority'
 
 connect(url, { useNewUrlParser: true }, (err) => {
     if (err) return console.log('[DataBase/Error] > Erro ao tentar conectar à DB.')
